@@ -1,20 +1,43 @@
+# Unity Generated Files
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
 [Bb]uild/
 [Bb]uilds/
 [Ll]ogs/
-[Uu]ser[Ss]ettings/
+
+# Visual Studio / VSCode
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Git Ignore for TextMeshPro
+Assets/TextMesh Pro/
+
+# Ignore Unity Auto-generated Metadata
+*.meta
+
+# Ignore User Settings
+UserSettings/
 
 # Memory Captures
-[Mm]emoryCaptures/
+MemoryCaptures/
 
-# Visual Studio / MonoDevelop project files
-*.csproj
-*.sln
-*.userprefs
-
-# Auto-generated JetBrains Rider plugin
-[Aa]ssets/Plugins/Editor/JetBrains*
-
+# JetBrains Rider Plugin
+Assets/Plugins/Editor/JetBrains*
 
